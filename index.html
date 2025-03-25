@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section class="panel panel-left panel-cover">
+		
+			<div id="inicio" class="block">
+				<img src="img/" alt="">
+				<h4>Marcela Lizano</h4>
+				<p>Estudiante</p>
+			</div>
+			
+			<div class="list media-list">
+				<ul>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">home</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Home</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">sell</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Categorías</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">info</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Info</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">person</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Perfil</div>
+						</div>
+					  </a>
+					</li>
+				</ul>
+			</div>
+			
+		
+		</section>
+		
+		
+	<div class="view view-main view-init">
+
+	<section data-name="home" class="page">
+
+	  <!-- Top Navbar -->
+	  <nav class="navbar">
+		<div class="navbar-bg"></div>
+		<div class="navbar-inner">
+			<div class="title">Pheonix</div>
+			<div class="right">
+				<a href="#" class="link panel-open" data-panel="left">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</div>
+	  </nav>
+
+
+		<section class="page-content">
+
+			<div id="welcome" class="block">
+
+				<p>Hello, <b>Girl!</b></p>
+				<h2>Wanna get <br>Glamed!</h2>
+
+				<article class="card">
+					<div class="card-content card-content-padding">
+						<div class="row">
+							<article class="col-50">
+								Must-Have
+								<h2 id="lipgloss">Fenty Lipgloss</h2>
+								<a href="#">
+									<span class="precio">Only <b>$22.00</b></span>
+								</a>
+							</article>
+							<article class="col-50">
+								<img src="img/2592395.webp" alt="" class="img-fluid">
+							</article>
+						</div>
+					</div>
+				</article>
+
+			</div>
+			
+			
+			<div class="row">
+				<article class="col">
+					<h2 class="block-title block-title-medium">Favoritos</h2>
+				</article>
+				<article class="col text-align-right">
+					<h2 class="block-title link"><a href="/products/" class="link">See all</a></h2>
+				</article>
+			</div>
+			
+			
+			<div id="home-products" class="block">
+				
+				<div class="swiper-container swiper-init" data-slides-per-view="2">
+				
+					<div class="swiper-wrapper">
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/Untitled-design-2023-08-17T125156.465.webp" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Rare Beauty Blush</h4>
+									<p class="tipo-producto">Soft Neutral Pink</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$24.00</p>
+									<a href="/info/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/s2702173-main-zoom.webp" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Eyebrow Gel Glossier</h4>
+									<p class="tipo-producto">Color Brown</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$7.45</p>
+									<a href="/ice-latte/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/lime-refreshers.jpg" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Lime Refresher</h4>
+									<p class="tipo-producto">Cold</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$3.25</p>
+									<a href="#">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/cafe-espresso.png" alt="" class="img-fluid">
+									<h4 class="nombre-producto">Espresso</h4>
+									<p class="tipo-producto">Hot</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$2.75</p>
+									<a href="#">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+					</div>
+					
+				</div>
+				
+			</div>
+
+
+		</section> <!--/page-content -->
+
+	</section> <!--/page -->
+		
+		<!-- toolbar -->
+		
+		<nav class="panel panel-left panel-cover">
+			<div class="list media-list">
+				
+				<a href="/home/" class="link">
+					
+					<i class="material-icons">home</i>
+					<span class="tabbar-label">Home</span>
+				</a>
+				<a href="/products/" class="link">
+					<i class="material-icons">favorite</i>
+					<span class="tabbar-label">Favorite</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">shopping_basket</i>
+					<span class="tabbar-label">Cart</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">account_circle</i>
+					<span class="tabbar-label">Profile</span>
+				</a>
+			</div>
+		</nav>
+				
+		
+		<!-- /toolbar -->
+		
+	</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
